@@ -1,0 +1,19 @@
+package programa10;
+Import java.util.scanner;
+public static void main (string[]args){
+Scanner x= new scanner(System.in);
+System.out.println("ingrese su nombre:");
+String name= x.netxLine();
+System.out.println("hola"+name+"!");
+System.out.println("elige una opción");
+System.out.println("1. Resolver la función general");
+System.out.println("2. Salir");
+int option = x.nextInt();
+if(option == 1){
+for (int i=1; i<=7; i++){
+System.out.println(i*i);
+}
+}else{
+System.out.println("Adiós");
+}
+}
